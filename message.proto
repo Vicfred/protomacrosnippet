@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package twitch;
+
+message Piola {
+  // persona => nivel de boludez
+  map<string, int64> boludez = 1;
+  // persona => ki
+  map<string, int64> ki = 2;
+  // persona => cosmos
+  map<string, int64> cosmos = 3;
+}
