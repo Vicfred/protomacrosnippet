@@ -23,7 +23,7 @@ proc merge_maps(phrom, to: Piola) =
 var piola1 = Piola()
 var piola2 = Piola()
 
-piola1.mutable_boludo["a"] = 3
+piola1.boludo["a"] = 3
 piola2.mutable_boludo["a"] = 5
 merge_maps(piola1, piola2)
 echo piola2.mutable_boludo["a"]
