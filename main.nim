@@ -13,7 +13,7 @@ type Piola = ref object
 proc merge_maps(phrom, to: Piola) =
     template merge_int(name) =
         for k, v in phrom.`name`:
-            to.` mutable _ name`[k] += v
+            to.`mutable _ name`[k] += v
     
     merge_int boludo
     merge_int cheto
