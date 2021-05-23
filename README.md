@@ -5,8 +5,7 @@
     - Protobuf
 
 ## Run and Compilation instructions
-
-    ```
+```
     git clone https://github.com/Vicfred/protomacrosnippet
     cd protomacrosnippet
     mkdir build
@@ -14,5 +13,5 @@
     cmake ..
     make
     ./main
-    ```
+```
 
